@@ -10,7 +10,7 @@ login.addEventListener("click", (e) => {
       if (passwordIn.value == usersO[i].password) {
         localStorage.setItem("activeUser", JSON.stringify(usersO[i]));
         localStorage.setItem("indexOfUserActive", i);
-        location.href = "/html/homepage.html";
+        location.href = "../html/homepage.html";
         break;
       } else if (
         i == usersO.length - 1 ||
@@ -66,5 +66,5 @@ setInterval(function () {
 // this for register button
 let btn = document.getElementById("register-btn");
 btn.addEventListener("click", () => {
-  location.href = "/index.html";
+  location.href = "../index.html";
 });

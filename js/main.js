@@ -136,7 +136,7 @@ submitUp.addEventListener("click", (e) => {
   // here i will push data in local storage
   users.push(singleUsers);
   localStorage.setItem("users", JSON.stringify(users));
-  location.href = "/html/signin.html";
+  location.href = "html/signin.html";
 });
 // this for show eye
 eye.style.display = "none";
@@ -178,5 +178,5 @@ setInterval(function () {
 
 let btn = document.getElementById("login-btn");
 btn.addEventListener("click", () => {
-  location.href = "/html/signin.html";
+  location.href = "html/signin.html";
 });

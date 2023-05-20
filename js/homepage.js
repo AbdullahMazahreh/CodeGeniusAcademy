@@ -28,7 +28,7 @@ if (
   personalInfo.addEventListener("click", (e) => {
     {
       //direct to the personal details section(شهرزاد)
-      location.href = "/html/personal-info1.html";
+      location.href = "../html/personal-info1.html";
     }
   });
 }
@@ -38,7 +38,7 @@ if (activeUser.englishTest != "") {
 } else {
   englishTest.addEventListener("click", (e) => {
     // direct to the english test (شهرزاد|| abdullah)
-    location.href = "/html/english.html";
+    location.href = "../html/english.html";
   });
 }
 
@@ -48,7 +48,7 @@ if (activeUser.technicalTest != "") {
 } else {
   technicalTest.addEventListener("click", (e) => {
     // direct to technical test (abdullah)
-    location.href = "/html/technical.html";
+    location.href = "../html/technical.html";
   });
 }
 
@@ -62,7 +62,7 @@ if (
 
 submitBtn.addEventListener("click", () => {
   {
-    location.href = "/html/report.html";
+    location.href = "../html/report.html";
   }
 });
 
@@ -88,5 +88,5 @@ Logout.addEventListener("click", () => {
   //directs to the login/register page (Haroon)
   localStorage.removeItem("activeUser");
   localStorage.removeItem("indexOfUserActive");
-  location.href = "/html/signin.html";
+  location.href = "../html/signin.html";
 });

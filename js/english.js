@@ -1,6 +1,6 @@
 let logoutBtn = document.getElementById("logout-btn");
 logoutBtn.addEventListener("click", () => {
-  location.href = "/html/signin.html";
+  location.href = "../html/signin.html";
   localStorage.removeItem("activeUser");
   localStorage.removeItem("indexOfUserActive");
 });
@@ -344,5 +344,5 @@ function finishExam() {
 
   localStorage.setItem("activeUser", JSON.stringify(activeUser));
   localStorage.setItem("users", JSON.stringify(allUsers));
-  location.href = "/html/homepage.html";
+  location.href = "../html/homepage.html";
 }

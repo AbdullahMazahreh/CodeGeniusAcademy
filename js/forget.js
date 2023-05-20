@@ -49,9 +49,9 @@ setInterval(function () {
 // this for register button
 let btn = document.getElementById("register-btn");
 btn.addEventListener("click", () => {
-  location.href = "/index.html";
+  location.href = "../index.html";
 });
 let btn1 = document.getElementById("login-btn");
 btn1.addEventListener("click", () => {
-  location.href = "/html/signin.html";
+  location.href = "../html/signin.html";
 });
